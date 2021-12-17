@@ -13,7 +13,7 @@ public class SearchPage extends BasePage {
     @FindBy(xpath = "//section/div[@class='tamef' and @data-tid='5d98e15f'][2]")
     WebElement maker;
 
-    @FindBy(xpath = "//a[@href and (contains(text(),'предложени*'))]")
+    @FindBy(xpath = "//a[@href and (contains(text(),'предложени'))]")
     WebElement resultBtn;
 
     @FindBy(xpath = "//input[@class='_34OG2']")
